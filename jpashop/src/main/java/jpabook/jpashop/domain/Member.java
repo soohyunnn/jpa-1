@@ -23,6 +23,6 @@ public class Member {
     private Address address;
 
     @OneToMany(mappedBy = "member")
-    private List<Order> orders = new ArrayList<>();
+    private List<Order> orders = new ArrayList<>();  // 가져다 쓰기만 하자! 수정하지 말고!
 
 }
